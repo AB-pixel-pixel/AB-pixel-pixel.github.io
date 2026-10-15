@@ -1,0 +1,381 @@
+{
+  "name": "Shaobin Ling",
+  "nameZh": "凌绍彬",
+  "email": "ab.pixel.pixel@gmail.com",
+  "github": "https://github.com/AB-pixel-pixel",
+  "updated": "2026-10-15",
+  "intro": {
+    "en": "I am a master's student in Computer and Information Engineering at The Chinese University of Hong Kong, Shenzhen. My research focuses on embodied AI, multi-robot collaboration, and efficient long-horizon task planning.",
+    "zh": "我是香港中文大学（深圳）计算机与信息工程专业的硕士生，研究方向包括具身智能、多机器人协同与高效长时域任务规划。"
+  },
+  "researchIntro": {
+    "en": "I study how robots can turn incomplete observations into reliable plans: connecting language-based reasoning, symbolic task models, and coordinated action in the physical world.",
+    "zh": "我关注机器人如何在信息不完整的环境中形成可靠的计划，将语言推理、符号任务模型与真实世界中的协同行动连接起来。"
+  },
+  "interests": [
+    {
+      "title": {
+        "en": "Planning & reasoning",
+        "zh": "规划与推理"
+      },
+      "text": {
+        "en": "Long-horizon planning, language agents, and uncertainty-aware symbolic reasoning.",
+        "zh": "长时域任务规划、大语言模型智能体与不确定性感知的符号推理。"
+      }
+    },
+    {
+      "title": {
+        "en": "Multi-robot collaboration",
+        "zh": "多机器人协同"
+      },
+      "text": {
+        "en": "Task allocation, resource coordination, and active exploration with robot teams.",
+        "zh": "面向机器人团队的任务分配、资源协调与主动探索。"
+      }
+    },
+    {
+      "title": {
+        "en": "Embodied intelligence",
+        "zh": "具身智能"
+      },
+      "text": {
+        "en": "Object navigation, spatial understanding, and deployment on real robots.",
+        "zh": "目标导航、空间理解，以及从仿真到真实机器人的系统部署。"
+      }
+    }
+  ],
+  "papers": [
+    {
+      "id": "elhplan",
+      "short": "ELHPlan",
+      "title": "ELHPlan: Efficient Long-Horizon Task Planning for Multi-Agent Collaboration",
+      "authors": [
+        "Shaobin Ling",
+        "Yun Wang",
+        "Chenyou Fan",
+        "Tin Lun Lam",
+        "Junjie Hu"
+      ],
+      "venue": "IROS 2026",
+      "status": null,
+      "year": 2026,
+      "first": true,
+      "image": "elhplan.webp",
+      "alt": {
+        "en": "ELHPlan action-chain planning and collaboration framework",
+        "zh": "ELHPlan 动作链规划与多智能体协同框架图"
+      },
+      "summary": {
+        "en": "Intention-bound Action Chains combine longer planning horizons with proactive feasibility checks and targeted refinement in partially observable environments.",
+        "zh": "以意图绑定的 Action Chain 为规划单元，通过主动可行性检查与局部修正，在部分可观测环境中实现长时域协同规划。"
+      },
+      "contribution": {
+        "en": "Designed and implemented the planning framework, validation and refinement mechanisms, and experimental pipeline.",
+        "zh": "负责整体规划框架、可行性验证与修正机制、实验平台搭建和论文撰写。"
+      },
+      "highlight": {
+        "en": "30–40% of baseline token usage on TDW-MAT and C-WAH",
+        "zh": "在 TDW-MAT 与 C-WAH 中，token 消耗为对比方法的 30–40%"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2509.24230"
+        },
+        {
+          "label": "Demo",
+          "video": "assets/videos/elhplan.mp4"
+        }
+      ]
+    },
+    {
+      "id": "aecnav",
+      "short": "AECNav",
+      "title": "AECNav: Active Evidence Consolidation for Efficient Zero-Shot Open-Vocabulary Object Navigation",
+      "authors": [
+        "Guanlin Liu",
+        "Shaobin Ling",
+        "Renyuan Liu",
+        "Zeying Gong",
+        "Junjie Hu"
+      ],
+      "venue": "IEEE RA-L",
+      "status": {
+        "en": "Under review",
+        "zh": "审稿中"
+      },
+      "year": 2026,
+      "first": false,
+      "image": "aecnav.webp",
+      "alt": {
+        "en": "AECNav evidence-driven object navigation overview",
+        "zh": "AECNav 证据驱动的开放词汇目标导航概览"
+      },
+      "summary": {
+        "en": "A training-free navigation pipeline that consolidates visual evidence, confirms targets, and actively explores unseen environments.",
+        "zh": "无需任务专用训练的开放词汇目标导航方法，通过视觉证据融合、可靠目标确认与主动探索应对未知环境。"
+      },
+      "contribution": {
+        "en": "Contributed to target evidence fusion, active exploration, and experimental validation.",
+        "zh": "参与目标证据融合、主动探索设计与实验验证。"
+      },
+      "highlight": {
+        "en": "95% success over 40 real-world quadruped trials",
+        "zh": "四足机器人实机测试：40 次试验，95% 成功率"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2608.10817"
+        },
+        {
+          "label": "Project",
+          "url": "https://basaermi.github.io/aecnav-website/"
+        }
+      ]
+    },
+    {
+      "id": "ucsbench",
+      "short": "UCS-Bench / Keep It in Mind",
+      "title": "Keep It in Mind: User Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams",
+      "authors": [
+        "Yun Wang",
+        "Junbin Xiao",
+        "Han Lyu",
+        "Yifan Wang",
+        "Jing Zuo",
+        "Zhanjie Zhang",
+        "Hong Huang",
+        "Dapeng Wu",
+        "Angela Yao"
+      ],
+      "venue": "ICML 2026",
+      "status": null,
+      "year": 2026,
+      "first": false,
+      "image": "ucsbench.webp",
+      "alt": {
+        "en": "UCS-Bench egocentric video streams and spatial reasoning evaluation",
+        "zh": "UCS-Bench 第一人称视频流与空间推理评测"
+      },
+      "summary": {
+        "en": "Continual spatial reasoning over egocentric video streams, connecting visual observations, spatial memory, and the user’s changing viewpoint.",
+        "zh": "面向第一人称视频流的持续空间推理，连接视觉观测、空间记忆与用户不断变化的视角。"
+      },
+      "contribution": {
+        "en": "Contributed to data quality management, annotation workflow design, and vision-language model evaluation.",
+        "zh": "参与数据质量管理、标注流程设计与视觉语言模型评测。"
+      },
+      "alias": {
+        "en": "Published as Han Lyu",
+        "zh": "以 Han Lyu 署名"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2606.15200"
+        },
+        {
+          "label": "Code & data",
+          "url": "https://github.com/cocowy1/UCS-Bench"
+        }
+      ]
+    },
+    {
+      "id": "exploration",
+      "short": "Multi-agent exploration",
+      "title": "Multi-agent Active Exploration Framework Based on Topological Map Fusion for Indoor Environments",
+      "authors": [
+        "Chenyu Bao",
+        "Junjie Hu",
+        "Shaobin Ling",
+        "Guoquan Ye",
+        "Tin Lun Lam"
+      ],
+      "venue": "ICIRA 2025",
+      "status": null,
+      "year": 2025,
+      "first": false,
+      "image": "exploration.webp",
+      "alt": {
+        "en": "Multi-robot active exploration and topological map fusion",
+        "zh": "多机器人主动探索与拓扑地图融合系统"
+      },
+      "summary": {
+        "en": "Collaborative indoor exploration through topological map fusion, connecting heterogeneous robots in a shared exploration system.",
+        "zh": "通过拓扑地图融合实现室内多机器人主动探索，将异构机器人接入统一的协同探索系统。"
+      },
+      "contribution": {
+        "en": "Real-robot deployment on MR-600, Petbot, and Spark: ROS integration, sensors, communication, and map fusion.",
+        "zh": "负责 MR-600、Petbot 和 Spark 平台实机部署，完成 ROS 集成、传感器适配、通信与地图融合。"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1007/978-981-95-2098-5_39"
+        },
+        {
+          "label": "Demo",
+          "video": "assets/videos/exploration.mp4"
+        }
+      ]
+    },
+    {
+      "id": "tgpt",
+      "short": "Graph prompt tuning",
+      "title": "A Novel Prompt Tuning for Graph Transformers: Tailoring Prompts to Graph Topologies",
+      "authors": [
+        "Jingchao Wang",
+        "Zhengnan Deng",
+        "Tongxu Lin",
+        "Wenyuan Li",
+        "Shaobin Ling"
+      ],
+      "venue": "ACM SIGKDD 2024",
+      "status": null,
+      "year": 2024,
+      "first": false,
+      "image": null,
+      "summary": {
+        "en": "Topology-specific prompts for adapting graph transformers to different graph structures.",
+        "zh": "根据图的拓扑结构构建特定提示，使图 Transformer 适应不同图结构。"
+      },
+      "contribution": {
+        "en": "Data preprocessing, experiment configuration, benchmark evaluation, and result analysis.",
+        "zh": "参与数据预处理、实验配置、基准评测与结果分析。"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3637528.3671804"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "short": "Knowledge distillation",
+      "title": "Beyond Direct Relationships: Exploring Multi-Order Label Pair Dependencies for Knowledge Distillation",
+      "authors": [
+        "Jingchao Wang",
+        "Zhengnan Deng",
+        "Tongxu Lin",
+        "Wenyuan Li",
+        "Shaobin Ling",
+        "Junyu Lin"
+      ],
+      "venue": "ACM Multimedia 2024",
+      "status": null,
+      "year": 2024,
+      "first": false,
+      "image": null,
+      "summary": {
+        "en": "Multi-order label dependencies for knowledge distillation in multi-label image classification.",
+        "zh": "利用多阶标签依赖关系，改进多标签图像分类中的知识蒸馏。"
+      },
+      "contribution": {
+        "en": "Data processing, training configuration, and experimental evaluation on Pascal VOC and MS-COCO.",
+        "zh": "参与数据处理、训练配置，以及 Pascal VOC 和 MS-COCO 上的实验评估。"
+      },
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3664647.3681029"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "date": {
+        "en": "2025 — 2027 (expected)",
+        "zh": "2025 — 2027（预计）"
+      },
+      "org": {
+        "en": "The Chinese University of Hong Kong, Shenzhen",
+        "zh": "香港中文大学（深圳）"
+      },
+      "role": {
+        "en": "Master’s student · Computer and Information Engineering",
+        "zh": "硕士在读 · 计算机与信息工程"
+      },
+      "detail": {
+        "en": "Research in embodied AI, multi-robot task planning, and LLM agents.",
+        "zh": "研究方向：具身智能、多机器人任务规划与 LLM Agent。"
+      }
+    },
+    {
+      "date": {
+        "en": "2021 — 2025",
+        "zh": "2021 — 2025"
+      },
+      "org": {
+        "en": "South China Normal University",
+        "zh": "华南师范大学"
+      },
+      "role": {
+        "en": "Bachelor’s degree · Artificial Intelligence",
+        "zh": "学士 · 人工智能"
+      },
+      "detail": {
+        "en": "Coursework in deep learning, machine learning, robotics, and mathematical modeling.",
+        "zh": "主修深度学习、机器学习、机器人学基础与数学建模等课程。"
+      }
+    }
+  ],
+  "experience": [
+    {
+      "date": {
+        "en": "Jan — May 2026",
+        "zh": "2026.01 — 2026.05"
+      },
+      "org": {
+        "en": "The Chinese University of Hong Kong, Shenzhen",
+        "zh": "香港中文大学（深圳）"
+      },
+      "role": {
+        "en": "Teaching Assistant",
+        "zh": "教学助理"
+      },
+      "detail": {
+        "en": "Designed and maintained ROS mobile robot navigation labs; taught and supported students in English.",
+        "zh": "设计并维护 ROS 移动机器人导航实验，以英文授课并指导学生完成导航任务与系统调试。"
+      }
+    },
+    {
+      "date": {
+        "en": "Aug 2024 — Jul 2025",
+        "zh": "2024.08 — 2025.07"
+      },
+      "org": {
+        "en": "Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+        "zh": "深圳市人工智能与机器人研究院"
+      },
+      "role": {
+        "en": "Research Assistant",
+        "zh": "研究助理"
+      },
+      "detail": {
+        "en": "Worked on LLM-based task planning, multi-robot scheduling, and navigation system implementation.",
+        "zh": "参与基于 LLM 的任务规划、多机器人任务调度与导航系统实现。"
+      }
+    }
+  ],
+  "awards": [
+    {
+      "en": "Excellent Student Scholarship · 2023–2024",
+      "zh": "2023–2024 学年优秀学生奖学金"
+    },
+    {
+      "en": "Academic Progress Award, Faculty of Engineering · 2022–2023",
+      "zh": "2022–2023 学年工学部学业进步奖"
+    },
+    {
+      "en": "Third Prize · 5th Artificial Intelligence Algorithm Challenge",
+      "zh": "第五届人工智能算法挑战赛三等奖"
+    },
+    {
+      "en": "Second Prize · Intel OpenVINO AI Vision Application Track",
+      "zh": "Intel OpenVINO AI 视觉应用赛道二等奖"
+    }
+  ]
+}

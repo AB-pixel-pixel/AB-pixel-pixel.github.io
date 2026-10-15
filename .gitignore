@@ -1,0 +1,8 @@
+.DS_Store
+._*
+_site/
+__pycache__/
+*.pyc
+node_modules/
+qa/
+docs/
